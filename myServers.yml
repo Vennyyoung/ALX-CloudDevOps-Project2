@@ -122,7 +122,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-052efd3df9dad4825
-      KeyName: myProject2-keyPair
+      
       InstanceType: t3.micro
       NetworkInterfaces:
         - AssociatePublicIpAddress: true
